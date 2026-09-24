@@ -9,7 +9,6 @@ local power-law exponent, with optional feedback memory `z`. Equations and param
 ./lpplattr02.py --b-quarter --mu-data        # target exponent = 30-day mean of the measured exponent
 ./lpplattr02.py --mu-data --mu-until 5586    # measured exponent up to halving 4, phase table after
 ./lpplattr02.py --zero-sigma --zero-z        # deterministic path, z off
-./lppl-simple.py --zero-sigma                # standalone minimal model (no z)
 ```
 
 Example output of `./lpplattr02.py --b-quarter` (seed 1859238670, reproducible with `--seed 1859238670`):
