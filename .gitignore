@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+Sim-Lap/
+btc-sim-cDGL/
+tmp-*/
+sweep*/
+*.bak
+*.bak?
+*~
+*.zip
+*.npy
+*.aux
+*.log
+*.out
+*.synctex.gz

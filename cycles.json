@@ -1,0 +1,211 @@
+{
+  "halving_periods": [
+    {
+      "period": "pre-1st-halving",
+      "period_name": "Genesis to 1st Halving",
+      "start_index": 0,
+      "end_index": 1425,
+      "peaks": [
+        {
+          "nr": 0,
+          "cycle": "Pre-Halving",
+          "year": "11",
+          "index_abs": 888,
+          "index_rel": 888,
+          "block_height": 152622,
+          "date": "09.11.2011",
+          "color": "orange",
+          "transparency": 0.8,
+          "note": "enormous peak",
+          "implemented": "not needed"
+        }
+      ]
+    },
+    {
+      "period": "1st-to-2nd",
+      "period_name": "1st to 2nd Halving",
+      "start_index": 1425,
+      "end_index": 2744,
+      "peaks": [
+        {
+          "nr": 1,
+          "cycle": "2013 Cycle",
+          "year": "13",
+          "index_abs": 1796,
+          "index_rel": 371,
+          "block_height": 273104,
+          "date": "04.12.2013",
+          "color": "#0000FF",
+          "transparency": 0.7,
+          "note": "big",
+          "implemented": "yes"
+        },
+        {
+          "nr": 2,
+          "cycle": "2013 Cycle",
+          "year": "13",
+          "index_abs": 1977,
+          "index_rel": 552,
+          "block_height": 304098,
+          "date": "03.06.2014",
+          "color": "blue",
+          "transparency": 0.5,
+          "note": "tiny",
+          "implemented": "no"
+        }
+      ]
+    },
+    {
+      "period": "2nd-to-3rd",
+      "period_name": "2nd to 3rd Halving",
+      "start_index": 2744,
+      "end_index": 4146,
+      "peaks": [
+        {
+          "nr": 3,
+          "cycle": "2017 Cycle",
+          "year": "17",
+          "index_abs": 3269,
+          "index_rel": 525,
+          "block_height": 499682,
+          "date": "16.12.2017",
+          "color": "#90EE90",
+          "transparency": 0.6,
+          "note": "big",
+          "implemented": "yes"
+        }
+      ]
+    },
+    {
+      "period": "3rd-to-4th",
+      "period_name": "3rd to 4th Halving",
+      "start_index": 4146,
+      "end_index": 5586,
+      "peaks": [
+        {
+          "nr": 4,
+          "cycle": "2021 Cycle",
+          "year": "21",
+          "index_abs": 4466.44,
+          "index_rel": 320.44,
+          "block_height": 676609,
+          "date": "27.03.2021",
+          "color": "#FF69B4",
+          "transparency": 0.5,
+          "note": "Fit, big, early",
+          "implemented": "no"
+        },
+        {
+          "nr": 5,
+          "cycle": "2021 Cycle",
+          "year": "21",
+          "index_abs": 4692,
+          "index_rel": 546,
+          "block_height": 708992,
+          "date": "09.11.2021",
+          "color": "#FF69B4",
+          "transparency": 0.5,
+          "note": "price ATH (ziel_BT.csv: 67549 USD)",
+          "implemented": "yes"
+        }
+      ]
+    },
+    {
+      "period": "4th-to-5th",
+      "period_name": "4th to 5th Halving",
+      "start_index": 5586,
+      "end_index": 7044,
+      "peaks": [
+        {
+          "nr": 6,
+          "cycle": "2025 Cycle",
+          "year": "25",
+          "index_abs": 6121,
+          "index_rel": 535,
+          "block_height": 918097,
+          "date": "07.10.2025",
+          "color": "orange",
+          "transparency": 0.7,
+          "note": "price ATH (as of 2026-03-30)",
+          "implemented": "yes"
+        }
+      ]
+    }
+  ],
+  "halvings": [
+    {
+      "nr": 1,
+      "name": "1st Halving",
+      "index_abs": 1425,
+      "block_height": 210058,
+      "date": "28.11.2012"
+    },
+    {
+      "nr": 2,
+      "name": "2nd Halving",
+      "index_abs": 2744,
+      "block_height": 420047,
+      "date": "09.07.2016"
+    },
+    {
+      "nr": 3,
+      "name": "3rd Halving",
+      "index_abs": 4146,
+      "block_height": 630023,
+      "date": "11.05.2020"
+    },
+    {
+      "nr": 4,
+      "name": "4th Halving",
+      "index_abs": 5586,
+      "block_height": 840128,
+      "date": "20.04.2024"
+    },
+    {
+      "nr": 5,
+      "name": "5th Halving (est.)",
+      "index_abs": 7044,
+      "block_height": null,
+      "date": null
+    }
+  ],
+  "cycle_bottoms": [
+    {
+      "nr": 1,
+      "label": "'15-Bottom",
+      "cycle_after": "2013 Cycle",
+      "index_abs": 2202,
+      "block_height": 338981,
+      "price": 183,
+      "date": "14.01.2015",
+      "note": "Minimum price between '13-Top (1796) and '17-Top (3269). Verified via ziel.csv and Codex."
+    },
+    {
+      "nr": 2,
+      "label": "'18-Bottom",
+      "cycle_after": "2017 Cycle",
+      "index_abs": 3632,
+      "block_height": 553853,
+      "price": 3282,
+      "date": "14.12.2018",
+      "note": "Minimum price between '17-Top (3269) and '21-Top (4682). Verified via ziel.csv and Codex."
+    },
+    {
+      "nr": 3,
+      "label": "'22-Bottom",
+      "cycle_after": "2021 Cycle",
+      "index_abs": 5070,
+      "block_height": 764201,
+      "price": 15766,
+      "date": "21.11.2022",
+      "note": "Minimum price between '21-Top (4682) and '25-Top (6121/918097). Verified via ziel.csv and Codex."
+    }
+  ],
+  "metadata": {
+    "source": "btc_gold_cycles-multi-peak.py",
+    "description": "BTC cycle peaks organized by halving periods",
+    "date_created": "2025-09-15",
+    "bottoms_added": "2026-03-22",
+    "block_heights_added": "2026-03-30"
+  }
+}
