@@ -61,7 +61,7 @@ SIGN_OU = {
         # Vorher handgetunt: 0: 0/0/0, 1: 4.72/-10.33/0.75, 2: 15/-8/0, 3: 6/-10/2, 4: 1/-8/2
         # ACHTUNG Zyklus 0 P1 = 13.30 aus nur 4 Monatspunkten mit Platzhalterpreisen; mit z AN
         # (ohne --zero-z) laeuft das System damit vor H1 weg (deterministisch geprueft).
-        0: {"P1": 13.30, "P2":  3.29, "P3": -1.28},   # vor Halving
+        0: {"P1":  0.0,  "P2":  3.29, "P3": -1.28},   # vor Halving; P1 neutral (Messung 13.30 aus 4 Platzhalterpunkten)
         1: {"P1":  4.15, "P2": -9.29, "P3":  2.42},   # '13
         2: {"P1": 15.30, "P2": -16.11, "P3": -0.51},  # '17
         3: {"P1":  9.43, "P2": -17.29, "P3":  7.50},  # '21

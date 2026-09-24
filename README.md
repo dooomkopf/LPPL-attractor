@@ -12,5 +12,10 @@ local power-law exponent, with optional feedback memory `z`. Equations and param
 ./lppl-simple.py --zero-sigma                # standalone minimal model (no z)
 ```
 
+Example output of `./lpplattr02.py --b-quarter` (seed 1859238670, reproducible with `--seed 1859238670`):
+
+![Price, residuals and feedback memory](img/b-quarter_fig1.png)
+![Attractor reconstruction, phases P1 (green), P2 (red), P3 (blue), pre-H1 grey](img/b-quarter_fig2.png)
+
 Further options: `--b-half`, `--days N`, `-h`. Data: `ziel.csv` (BTC daily close, day since genesis).
 Requires Python 3 with numpy, matplotlib, scipy.
